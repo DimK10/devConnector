@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb+srv://james123:james123@devconnector-lyosc.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubToken": "d8122b21d74915802e1d726d942e6dae86fa9370"
+}
