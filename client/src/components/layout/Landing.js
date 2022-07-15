@@ -1,7 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-const Landing = props => {
+const Landing = (props) => {
   return (
     <section className='landing'>
       <div className='dark-overlay'>
@@ -12,19 +13,19 @@ const Landing = props => {
             other developers
           </p>
           <div className='buttons'>
-            <a href='register.html' className='btn btn-primary'>
+            <Link to='/register' className='btn btn-primary'>
               Sign Up
-            </a>
-            <a href='login.html' className='btn btn-light'>
+            </Link>
+            <Link to='login' className='btn btn-light'>
               Login
-            </a>
+            </Link>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
-Landing.propTypes = {}
+Landing.propTypes = {};
 
-export default Landing
+export default Landing;
