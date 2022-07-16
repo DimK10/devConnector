@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+
 
 const Landing = (props) => {
   return (
@@ -25,7 +25,5 @@ const Landing = (props) => {
     </section>
   );
 };
-
-Landing.propTypes = {};
 
 export default Landing;
