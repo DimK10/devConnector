@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react';
-import {}
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+
 
 const Register = (props) => {
   const [formData, setFormData] = useState({
@@ -80,7 +81,8 @@ const Register = (props) => {
         <input type='submit' className='btn btn-primary' value='Register' />
       </form>
       <p className='my-1'>
-        Already have an account? <a href='login.html'>Sign In</a>
+        Already have an account?
+        <Link  to='/login'>Log In</Link>
       </p>
     </Fragment>
   );
